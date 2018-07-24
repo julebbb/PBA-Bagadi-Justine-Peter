@@ -97,7 +97,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.w-100 {
+  width: 185px!important;
+}
 
+.card-title {
+  font-family: llo!important;
+  font-weight: bold;
+}
 
 
 
