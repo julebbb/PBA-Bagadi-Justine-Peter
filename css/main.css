@@ -96,8 +96,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+  font-family: 'pba';
+  src: url('pba.ttf') format("truetype");
+ }
 
-
+ @font-face {
+   font-family: 'lovelo';
+   src: url('lovelo.ttf') format("truetype");
+  }
 
 
 
