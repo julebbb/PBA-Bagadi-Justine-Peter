@@ -16,7 +16,8 @@
   <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
   <!-- Place favicon.ico in the root directory -->
   <!--32x32 le favicon -->
-
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -28,34 +29,76 @@
 
   <!-- Add your site or application content here -->
   <header>
-    <a href="index.html"><h1>Palais beau-arts Lille</h1></a>
-    <nav>
-      <ul>
-        <li><a href="#">Collections</a></li>
-        <li class="selected"><a href="visit.html">Visiter</a></li>
-        <li><a href="agenda.html">Agenda</a></li>
-        <li><a href="#">Infos</a></li>
-      </ul>
+    <a class="" href="index.html"><h1>palais beau-arts lille</h1></a>
+    <nav class="navbar navbar-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Collections<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Visiter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Agenda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Infos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contactez nous</a>
+          </li>
+        </ul>
+      </div>
+      <button class="search-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class=""><i class="fas fa-search d-lg-none"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Collections<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Visiter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Agenda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Infos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contactez nous</a>
+          </li>
+        </ul>
+      </div>
+
+      <i class="fas fa-info-circle d-lg-none"></i>
+      <a class="" href="#">Mon pba</a>
+      <form class="" action="index.html" method="post">
+       <input type="search" name="search-bar" value="">
+       <input type="submit" name="send" value=""></input>
+      </form>
+      <select class="" name="langues">
+        <option value="francais">Français</option>
+        <option value="english">English</option>
+        <option value="dutch">Dutch</option>
+      </select>
+      <a href="#"><img src="" alt="Logo de la ville de Lille"></a>
     </nav>
-    <form class="" action="index.html" method="post">
-     <input type="search" name="search-bar" value="">
-     <input type="submit" name="send" value=""></input>
-    </form>
-    <select class="" name="langues">
-      <option value="francais">Français</option>
-      <option value="english">English</option>
-      <option value="dutch">Dutch</option>
-    </select>
-    <a href="#"><img src="" alt="Logo de la ville de Lille"></a>
   </header>
 
   <main>
-    <section>
-      <a href="#"><h2>Vous êtes un <strong>individuel</strong></h2></a>
-      <a href="#"><h2>Vous êtes un <strong>groupe</strong></h2></a>
-      <a href="#"><h2>Vous êtes une <strong>famille</strong></h2></a>
-      <a href="#"><h2>Vous êtes un <strong>étudiant</strong></h2></a>
-      <a href="#"><h2>Vous êtes un <strong>enseignant</strong></h2></a>
+    <section class="row m-4">
+      <a class="col-12 mb-4 p-2 text-center" href="#"><h2>Vous êtes un <strong>individuel</strong></h2></a>
+      <a class=" col-12 mb-4" href="#"><h2>Vous êtes un <strong>groupe</strong></h2></a>
+      <a class="col-12 mb-4" href="#"><h2>Vous êtes une <strong>famille</strong></h2></a>
+      <a class="col-12 mb-4" href="#"><h2>Vous êtes un <strong>étudiant</strong></h2></a>
+      <a class="col-12" href="#"><h2>Vous êtes un <strong>enseignant</strong></h2></a>
     </section>
 
     <section>
@@ -228,6 +271,8 @@
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/bootstrap.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>

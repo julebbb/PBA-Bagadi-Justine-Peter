@@ -106,10 +106,27 @@ textarea {
    src: url('lovelo.ttf') format("truetype");
   }
 
+body {
+  font-family: 'lovelo', cursive;
+}
 
+header h1{
+  font-family: 'pba', cursive;
+}
 
+header a {
+  color: white;
+  background: ;
+}
 
+main a h2 {
+  font-size: 1.4rem;
+}
 
+main a {
+  background: #e9e9e9;
+  
+}
 
 
 
