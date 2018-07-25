@@ -108,25 +108,60 @@ textarea {
 
 body {
   font-family: 'lovelo', cursive;
+  font-size: 1rem;
+  background: #1d1d1e;
 }
+
+header h1, header .fas {
+  font-size: 1.1rem;
+}
+
+ header nav > a img:nth-child(1) {
+   width: 1.65rem;
+ }
 
 header h1{
   font-family: 'pba', cursive;
+  margin: 0;
+  padding: 0;
 }
 
-header a {
+header a, .navbar-brand h1, header {
   color: white;
-  background: ;
+  transition: 0.2s ease-in;
+}
+
+header a:hover, .nav-link:hover, .navbar-brand h1:hover, header .fas:hover  {
+  color: #d8383f;
+}
+
+.lille {
+  letter-spacing: 0.2rem;
+}
+
+header span, header select, header nav > a:last-child {
+  display: none;
 }
 
 main a h2 {
-  font-size: 1.4rem;
+  font-size: 14px;
 }
 
 main a {
   background: #e9e9e9;
-  
+  margin-bottom: 1.5rem;
+  padding: 1rem 0 1rem 0;
 }
+
+main a strong {
+  font-size: 21px;
+}
+
+header button img {
+  width: 23.5px;
+  height: 22px;
+}
+
 
 
 
