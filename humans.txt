@@ -3,11 +3,8 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+Lebbrecht Justine -- projet manager -- https://github.com/julebbb
+Alnour Bagadi -- developpement -- https://github.com/bagadiAlnour
 
 # TECHNOLOGY COLOPHON
 
