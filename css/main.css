@@ -456,6 +456,9 @@ footer .application .overlay-image {
 
   header nav div > a img:nth-child(1) {
     width: 2.7rem;
+  }
+
+  header nav div > a img:nth-child(1) {
     padding-top: 5px;
   }
   header button img {
@@ -478,6 +481,65 @@ footer .application .overlay-image {
 
   .visit main section:nth-child(1) {
     padding: 100px 35px;
+  }
+  .travel > div img {
+    width: 7.5rem;
+  }
+
+  .visit .travel h2 {
+    letter-spacing: 0.5px;
+    font-size: 1.7rem;
+  }
+
+  .travel .fas {
+    font-size: 32px;
+  }
+
+  .vignette > div {
+    padding: 47px 47px 0 47px;
+    height: 260px;
+  }
+  .visit .travel a h2 {
+    font-size: 3.4rem;
+    height: 100px;
+    line-height: 3.6rem;
+  }
+  .travel .vignette p, .vignette strong, .fa-clock {
+    font-size: 21px;
+  }
+  .visit main a strong {
+    font-size: 34px;
+  }
+
+  .fa-clock {
+    font-size: 40px;
+    padding-top: 15px;
+  }
+
+  .visit main section:last-child .time h2 {
+    font-size: 5.4rem;
+
+  }
+
+  .time {
+    bottom: 50px;
+    right: 47px;
+  }
+
+  .incontournables span {
+    font-size: 20px;
+    line-height: 1.5rem;
+  }
+
+  .incontournables .time span:nth-child(2) {
+    padding-top: 20px;
+  }
+  .overlay-image .image {
+    width: 325px;
+  }
+
+  footer .application div p:nth-child(3), .borderFooter {
+    font-size: 25px;
   }
  }
 
