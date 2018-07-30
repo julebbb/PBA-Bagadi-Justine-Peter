@@ -21,6 +21,17 @@ body {
 
 
 }
+@font-face {
+    font-family: 'pba';
+    src: url('pba.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'lovelo';
+    src: url('lovelo.ttf') format("truetype");
+}
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -127,7 +138,7 @@ body a:hover {
 
 .navbar {
     background:#1D1D1E!important;
-    height: 70px;
+    height: 80px;
     position: fixed;
     top: 0;
     left: 0;
@@ -136,19 +147,31 @@ body a:hover {
 }
 .navbar a  {
     color:#ffffff!important;
-    padding: 0px;
-    font-weight: 500;
-    vertical-align: middle;
+    margin: 8px;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'lovelo';
     
     
+    
+}
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 1.5px;
+    font-family: 'pba';
+    font-size: 25px;
 }
 
 
 .mr-sm-2 {
-    border: 3px solid #fff!important;
+    border: 4px solid #fff!important;
     border-radius: 0;
     background: #1D1D1E;
-    width: 120px!important;
+    padding: 13px;
+    margin: 10px;
+    width: 150px!important;
     height: 30px;
 }
 
@@ -157,19 +180,25 @@ body a:hover {
     border:4px solid #ffffff;
     background: #1D1D1E;
     color: #ffffff;
-    width: 90px;
+    width: 120px;
     font-weight: 900;
-    padding: 5px;
+    margin: 4px;
+    margin-top: 10px;
     text-align: center;
-    font-size: 10px;
+    font-size: 16px;
     display: inline-block;
+    padding: 1px
+    
 }
+
 
 
 select {
     background:#1D1D1E;
     color:#ffffff;
     padding: 0px;
+    margin-right: 10px;
+    
     border:none;
 }
 
@@ -185,7 +214,7 @@ select {
 
 .video_background {
     position: relative;
-    height:500px;
+    height:550px;
     padding: 0;
     overflow: hidden;
     width: 100%;
@@ -200,7 +229,16 @@ select {
     color: #ffffff;
     text-align: center;
     font-size: 16px;
-    margin:auto;
+    margin:0px auto;
+    
+}
+.video_text .col-lg-5 {
+    border-bottom: 15px solid #ffffff;
+    border-top: 15px solid #ffffff;
+    padding-top: 12%;
+}
+.video_text .row {
+    padding: 50px;
 }
 .video_text h1 {
     font-weight: 900;
@@ -294,17 +332,24 @@ select {
 .gallery {
     position: relative;
     width: 100%;
-    
+    margin-left: 0!important;
+    margin-right: 0!important;
+    padding: 0!important;
+}
+.gallery .img-fluid {
+    width: 100%;
 }
 
-.four-images a {
-    color:#000000;
+.four-images {
+    margin-right: 0;
+    margin-left: 0;
 }
+
 .text_over_image a {
     position: absolute;
     color:#000000;
-    bottom: 30px;
-    left: 30px;
+    bottom: 10%;
+    left: 30%;
     width: 200px;
     height: 200px;
     background: #ffffff;
@@ -402,7 +447,7 @@ select {
     vertical-align: middle;
     text-align: center;
     padding: auto;
-    margin: auto;
+    margin:0;
     
 }
 .download_app a {
@@ -444,6 +489,7 @@ select {
     display: block;
     position: relative;
     text-align: center;
+    font-family: 'lovelo';
 }
 
 
@@ -461,10 +507,15 @@ footer {
 footer a {
     color: #ffffff;
 }
-
+.main_info {
+    width: 75%;
+    margin: auto;
+}
 
 .main_info p, .main_info h1, .main_info li {
     text-transform: uppercase;
+    text-align: left;
+    font-size: 20px;
 }
 .main_info p,.main_info li {
     font-weight: 10px;
@@ -474,13 +525,17 @@ footer a {
     letter-spacing: 0.5px;
     font-weight: 100;
     font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
     
+}
+.footer_images {
+    margin: 5px;
 }
 
 
 footer .social img {
     width: 35px;
-    margin-right: 10px;
+    margin-right: 5px;
     
 }
 
@@ -497,53 +552,6 @@ footer img {
     width: 190px;
     padding: 20px
 }
-
-
-
-/* ===================================================================
------------------------------ |header |-------------------------------
-------------------------------------------------------------------- */
-.header h1, .header p {
-    
-}
-
-
-
-
-
-video {
-    height: 800px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -715,4 +723,8 @@ video {
     h3 {
         page-break-after: avoid;
     }
+}
+
+.wrapper {
+    
 }
