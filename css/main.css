@@ -236,8 +236,8 @@ select {
 
 .video_text {
     position: absolute;
-    top: 120px;
-    left: 150px;
+    top:10%;
+    left: 10%;
     text-align: justify;
     text-transform: uppercase;
     color: #ffffff;
@@ -452,7 +452,9 @@ select {
     margin: 0;
 }
 
-
+.five_images .row {
+    margin: 0
+}
 
 
 .download_app {
@@ -460,7 +462,7 @@ select {
     background: #D8383F;
     vertical-align: middle;
     text-align: center;
-    padding: auto;
+    padding:0;
     margin:0;
     
 }
