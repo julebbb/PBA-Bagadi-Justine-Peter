@@ -16,6 +16,22 @@ html {
     line-height: 1.4;
 }
 
+<<<<<<< HEAD
+
+}
+@font-face {
+    font-family: 'pba';
+    src: url('pba.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'lovelo';
+    src: url('lovelo.ttf') format("truetype");
+}
+
+
+=======
+>>>>>>> c77ca32dc300a0fc8ff95213b808f4ac3b4f873e
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -169,7 +185,7 @@ textarea {
   width: 1.95em;
   font-size: 8px;
 }
-  }
+
     p>.fa {
       font-size: 24px!important;
       position: relative;
@@ -292,6 +308,61 @@ bottom: 13px;
       font-size: 80px;
   }
 
+<<<<<<< HEAD
+.navbar {
+    background:#1D1D1E!important;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.navbar a  {
+    color:#ffffff!important;
+    margin: 8px;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'lovelo';
+    
+    
+    
+}
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 1.5px;
+    font-family: 'pba';
+    font-size: 25px;
+}
+
+
+.mr-sm-2 {
+    border: 4px solid #fff!important;
+    border-radius: 0;
+    background: #1D1D1E;
+    padding: 13px;
+    margin: 10px;
+    width: 150px!important;
+    height: 30px;
+}
+
+
+.mon_pba{
+    border:4px solid #ffffff;
+    background: #1D1D1E;
+    color: #ffffff;
+    width: 120px;
+    font-weight: 900;
+    margin: 4px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    padding: 1px
+    
+=======
   @font-face {
     font-family: 'open_sansregular';
     src: url('open_sansregular.ttf') format("truetype"),
@@ -310,6 +381,7 @@ bottom: 13px;
     font-family: 'lovelo';
     font-size: 28px;
     margin-top: 15px;
+>>>>>>> c77ca32dc300a0fc8ff95213b808f4ac3b4f873e
 }
 
 .figure-caption {
@@ -319,10 +391,21 @@ bottom: 13px;
     font-size: 25px;
 }
 
+<<<<<<< HEAD
+
+select {
+    background:#1D1D1E;
+    color:#ffffff;
+    padding: 0px;
+    margin-right: 10px;
+    
+    border:none;
+=======
 .pric {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 26px;
+
 }
 
 .next > a {
@@ -355,6 +438,32 @@ bottom: 13px;
     display: flex;
     align-items: baseline;
     position: relative;
+    height:550px;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.video_text {
+    position: absolute;
+    top:10%;
+    left: 10%;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    margin:0px auto;
+    
+}
+.video_text .col-lg-5 {
+    border-bottom: 15px solid #ffffff;
+    border-top: 15px solid #ffffff;
+    padding-top: 12%;
+}
+.video_text .row {
+    padding: 50px;
+=======
     bottom: 6px;
 }
 
@@ -431,11 +540,10 @@ bottom: 13px;
   font-weight: bold;
 }
 =======
-.visit, html {
+.visit {
   font-family: 'lovelo', cursive;
   font-size: 0.95rem;
   background: #1d1d1e;
->>>>>>> d3e96de106404a96998b6e69e135d6c4856079a3
 
   overflow: scroll;
   transition: 0.2s ease-in;
@@ -500,6 +608,37 @@ header .navbar div:nth-child(1) {
   max-width: 33.333333%;
 }
 
+<<<<<<< HEAD
+/* =======================================================================
+----------------------------| 4 images | ---------------------------------
+======================================================================= */
+.gallery {
+    position: relative;
+    width: 100%;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    padding: 0!important;
+}
+.gallery .img-fluid {
+    width: 100%;
+}
+
+.four-images {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.text_over_image a {
+    position: absolute;
+    color:#000000;
+    bottom: 10%;
+    left: 30%;
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+    overflow:hidden;
+    padding: 10px;   
+=======
 .logoLille {
   letter-spacing: 0.2rem;
 }
@@ -511,6 +650,7 @@ header h1 {
 
 header h1 span {
   font-size: 0.9rem;
+>>>>>>> c77ca32dc300a0fc8ff95213b808f4ac3b4f873e
 }
 
 .navbar div:nth-child(2) {
@@ -601,14 +741,34 @@ header button img {
 
 
 
+<<<<<<< HEAD
+.five_images .row {
+    margin: 0
+}
+=======
 
 /*==========================================
               Visit img background
 ============================================*/
+>>>>>>> c77ca32dc300a0fc8ff95213b808f4ac3b4f873e
 
 .travel a:nth-child(2) {
   background: url("../img/Beaux-Gosses.jpg");
 
+<<<<<<< HEAD
+.download_app {
+    text-transform: uppercase;
+    background: #D8383F;
+    vertical-align: middle;
+    text-align: center;
+    padding:0;
+    margin:0;
+    
+}
+.download_app a {
+    color: #ffffff;
+=======
+>>>>>>> c77ca32dc300a0fc8ff95213b808f4ac3b4f873e
 }
 
 .travel a:nth-child(3) {
@@ -627,6 +787,32 @@ header button img {
 .travel a:nth-child(6) {
   background: url("../img/Anges-et-Demons.jpg");
 }
+<<<<<<< HEAD
+.lille img {
+    padding-right: 10px;
+}
+/* =======================================================================
+----------------------------| Footer | -----------------------------------
+======================================================================= */
+.footer_container {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: 'lovelo';
+}
+
+
+
+
+
+footer {
+    background:#1D1D1E;
+    position:absolute;
+    width: 100%;
+    color: #ffffff;
+    padding: 20px 40px 0;
+=======
+>>>>>>> c77ca32dc300a0fc8ff95213b808f4ac3b4f873e
 
 .travel a:nth-child(7) {
   background: url("../img/Histoires-de-betes.jpg");
@@ -635,6 +821,28 @@ header button img {
 .travel a:nth-child(8) {
   background: url("../img/Blondes-et-brunes.jpg");
 }
+<<<<<<< HEAD
+.main_info {
+    width: 75%;
+    margin: auto;
+}
+
+.main_info p, .main_info h1, .main_info li {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 20px;
+}
+.main_info p,.main_info li {
+    font-weight: 10px;
+    font-size: 12px;
+    line-height: 1.7;
+    word-spacing: 1;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    
+=======
 
 .travel a:nth-child(9) {
   background: url("../img/Ar-t-chitecture.jpg");
@@ -646,16 +854,27 @@ header button img {
 
 .incontournables a:nth-child(2) {
   background: url("../img/8-oeuvres.jpg");
+>>>>>>> c77ca32dc300a0fc8ff95213b808f4ac3b4f873e
+}
+.footer_images {
+    margin: 5px;
 }
 
 .incontournables a:nth-child(3) {
   background: url("../img/12-oeuvres.jpg");
 }
 
+<<<<<<< HEAD
+footer .social img {
+    width: 35px;
+    margin-right: 5px;
+    
+=======
 .travel a:nth-child(2), .travel a:nth-child(3), .travel a:nth-child(4), .travel a:nth-child(5), .travel a:nth-child(6), .travel a:nth-child(7), .travel a:nth-child(8), .travel a:nth-child(9), .incontournables a:first-child,
 .incontournables a:nth-child(2), .incontournables a:nth-child(3)  {
   background-position: center center;
   background-size: cover;
+>>>>>>> c77ca32dc300a0fc8ff95213b808f4ac3b4f873e
 }
 
 /*==========================================
@@ -679,6 +898,8 @@ header button img {
   left: 17.188%;
   bottom: 133px;
 }
+<<<<<<< HEAD
+=======
 
 .vignette h2 {
   font-size: 26px;
@@ -954,10 +1175,14 @@ border-top: 0;
       margin-left: 10px;
     }
 
+<<<<<<< HEAD
+>>>>>>> 2dfe77a59b0ea658e14aa52f93a6712948aeef0e
+=======
     .application p {
       border-color: transparent;
     }
 }
+>>>>>>> c77ca32dc300a0fc8ff95213b808f4ac3b4f873e
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -1129,4 +1354,8 @@ border-top: 0;
     h3 {
         page-break-after: avoid;
     }
+}
+
+.wrapper {
+    
 }
