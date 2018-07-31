@@ -159,10 +159,12 @@ header input[type="search"] {
   padding-right: 30px;
   padding-left: 5px;
 }
+
 header form {
   position: relative;
   width: 160px;
 }
+
 header input[type="submit"]{
   background: url("../img/search.svg") no-repeat center;
   position: absolute;
