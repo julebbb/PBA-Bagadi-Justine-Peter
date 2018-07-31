@@ -3,9 +3,9 @@
 
 # TEAM
 
-Lebbrecht Justine -- projet manager -- https://github.com/julebbb
-Alnour Bagadi -- developpement -- https://github.com/bagadiAlnour
-
+Justine -- projet manager -- https://github.com/julebbb
+Bagadi -- developpement -- https://github.com/bagadiAlnour
+Peter -- developpement -- https://github.com/UNHARMED
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
