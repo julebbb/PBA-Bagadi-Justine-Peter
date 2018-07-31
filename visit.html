@@ -16,186 +16,244 @@
   <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
   <!-- Place favicon.ico in the root directory -->
   <!--32x32 le favicon -->
-
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="visit">
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <header>
-    <a href="index.html"><h1>Palais beau-arts Lille</h1></a>
-    <nav>
-      <ul>
-        <li><a href="#">Collections</a></li>
-        <li class="selected"><a href="visit.html">Visiter</a></li>
-        <li><a href="agenda.html">Agenda</a></li>
-        <li><a href="#">Infos</a></li>
-      </ul>
-    </nav>
-    <form class="" action="index.html" method="post">
-     <input type="search" name="search-bar" value="">
-     <input type="submit" name="send" value=""></input>
-    </form>
-    <select class="" name="langues">
-      <option value="francais">Français</option>
-      <option value="english">English</option>
-      <option value="dutch">Dutch</option>
-    </select>
-    <a href="#"><img src="" alt="Logo de la ville de Lille"></a>
-  </header>
+  <header class=" position-fixed w-100">
+    <nav class="navbar navbar-light row m-0 px-2 py-2">
 
-  <main>
-    <section>
-      <a href="#"><h2>Vous êtes un <strong>individuel</strong></h2></a>
-      <a href="#"><h2>Vous êtes un <strong>groupe</strong></h2></a>
-      <a href="#"><h2>Vous êtes une <strong>famille</strong></h2></a>
-      <a href="#"><h2>Vous êtes un <strong>étudiant</strong></h2></a>
-      <a href="#"><h2>Vous êtes un <strong>enseignant</strong></h2></a>
-    </section>
+      <div class=" d-flex align-items-center p-0 ml-1">
+        <a class="navbar-brand pr-3 p-0 m-0" href="index.html"><h1 class="d-flex  m-0 p-0">p<span>alais</span> b<span>eau-</span> a<span>rts</span><span class="d-inline logoLille"> lille</span></h1></a>
 
-    <section>
-
-      <div class="">
-        <!--big link with a background picture-->
-        <a href="#">
-          <!-- container -->
-          <div class="">
-
-            <img src="" alt="Icon de parcours">
-
-            <h2>Parcours de visite</h2>
-
-            <div class="">
-              <i class="fas fa-caret-down"></i>
-            </div>
-
-          </div>
-
-        </a>
+        <p class=" p-0 m-0 ">Visiter</p>
       </div>
 
-      <a href="#">
-        <h2>Beaux gosses</h2>
-        <p>
-          <i class="far fa-clock"></i>
-          <strong>30 mn</strong>
-          de parcours
+      <div class="d-flex justify-content-end  p-0 mr-1">
+
+        <p class=" my-0 p-0 pt-1 px-2 ">
+          <a  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <i class="w-100 fas fa-search"></i>
+          </a>
         </p>
+        <div class="collapse" id="collapseExample">
+          <form class="" action="index.html" method="post">
+           <input type="search" name="search-bar" value="">
+           <input type="submit" name="send" value="">
+          </form>
+        </div>
+
+        <a href="#" class=" p-0 mx-2"><img src="img/information.svg" alt="info"></a>
+
+        <button class="navbar-toggler p-0 ml-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="img/burger.svg" alt="button">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Collections<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Visiter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Agenda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Infos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link none-browser" href="#">Contactez nous</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link none-browser" href="#">Mon pba</a>
+            </li>
+          </ul>
+      </div>
+
+      </div>
+
+
+      <a class="pba" href="#">Mon pba</a>
+
+      <select class="" name="langues">
+        <option value="francais">Français</option>
+        <option value="english">English</option>
+        <option value="dutch">Dutch</option>
+      </select>
+      <a  href="#"><img src="img/logo-lille.svg" alt="Logo de la ville de Lille"></a>
+    </nav>
+
+  </header>
+
+  <main class="mt-5">
+
+    <section class="row m-4 mt-4 selectPeople">
+
+      <a class="col-12 text-center" href="#"><h2 class="mb-0 mt-2">Vous êtes un <strong class="ml-1">individuel</strong></h2></a>
+      <a class="col-12 text-center" href="#"><h2 class="mb-0 mt-2">Vous êtes un <strong class="ml-1">groupe</strong></h2></a>
+      <a class="col-12 text-center" href="#"><h2 class="mb-0 mt-2">Vous êtes une <strong class="ml-1">famille</strong></h2></a>
+      <a class="col-12 text-center" href="#"><h2 class="mb-0 mt-2">Vous êtes un <strong class="ml-1">étudiant</strong></h2></a>
+      <a class="col-12 text-center" href="#"><h2 class="mb-0 mt-2">Vous êtes un <strong class="ml-1">enseignant</strong></h2></a>
+
+    </section>
+
+    <section class="travel row m-0 p-0">
+      <!-- container -->
+      <div class="row col-12 mx-0 mb-4 text-center justify-content-center mt-5">
+          <img class="p-0" src="img/logo-parcours.png" alt="Icon de parcours">
+
+          <h2 class="col-12 m-1">Parcours de visite</h2>
+
+          <div class="col-12">
+            <i class="fas fa-caret-down"></i>
+          </div>
+
+      </div>
+      <!--big link with a background picture-->
+      <a href="#" class="vignette d-block w-100 position-relative m-0">
+        <div class="col-12 row  position-absolute">
+          <h2 class="col-12 p-0">Beaux gosses</h2>
+          <p class="p-0 m-0">
+            <i class="far fa-clock"></i>
+            <strong>30 mn</strong>
+            de parcours
+          </p>
+        </div>
+
       </a>
 
-      <a href="#">
-        <h2>Beaux gosses</h2>
-        <p>
-          <i class="far fa-clock"></i>
-          <strong>30 mn</strong>
-          de parcours
-        </p>
+      <a href="#" class="vignette d-block w-100 position-relative m-0">
+        <div class="col-12 row  position-absolute">
+
+          <h2 class="col-12 p-0">Le grand bleu</h2>
+          <p>
+            <i class="far fa-clock"></i>
+            <strong>45 mn</strong>
+            de parcours
+          </p>
+        </div>
       </a>
 
-      <a href="#">
-        <h2>Le grand bleu</h2>
-        <p>
-          <i class="far fa-clock"></i>
-          <strong>45 mn</strong>
-          de parcours
-        </p>
+      <a href="#" class="vignette d-block w-100 position-relative m-0">
+        <div class="col-12 row  position-absolute">
+          <h2 class="col-12 p-0">Love, etc.</h2>
+          <p>
+            <i class="far fa-clock"></i>
+            <strong>45 mn</strong>
+            de parcours
+          </p>
+        </div>
       </a>
 
-      <a href="#">
-        <h2>Love, etc.</h2>
-        <p>
-          <i class="far fa-clock"></i>
-          <strong>45 mn</strong>
-          de parcours
-        </p>
+      <a href="#" class="vignette d-block w-100 position-relative m-0">
+        <div class="col-12 row  position-absolute">
+          <h2 class="col-12 p-0">À table !</h2>
+          <p>
+            <i class="far fa-clock"></i>
+            <strong>45 mn</strong>
+            de parcours
+          </p>
+        </div>
       </a>
 
-      <a href="#">
-        <h2>À table !</h2>
-        <p>
-          <i class="far fa-clock"></i>
-          <strong>45 mn</strong>
-          de parcours
-        </p>
+      <a href="#" class="vignette d-block w-100 position-relative m-0">
+        <div class="col-12 row  position-absolute">
+          <h2 class="col-12 p-0">Anges et démons</h2>
+          <p>
+            <i class="far fa-clock"></i>
+            <strong>45 mn</strong>
+            de parcours
+          </p>
+        </div>
       </a>
 
-      <a href="#">
-        <h2>Anges et démon</h2>
-        <p>
-          <i class="far fa-clock"></i>
-          <strong>45 mn</strong>
-          de parcours
-        </p>
+      <a href="#" class="vignette d-block w-100 position-relative m-0">
+        <div class="col-12 row  position-absolute">
+          <h2 class="col-12 p-0">Histoires de bêtes</h2>
+          <p>
+            <i class="far fa-clock"></i>
+            <strong>45 mn</strong>
+            de parcours
+          </p>
+        </div>
       </a>
 
-      <a href="#">
-        <h2>Histoires de bêtes</h2>
-        <p>
-          <i class="far fa-clock"></i>
-          <strong>45 mn</strong>
-          de parcours
-        </p>
+      <a href="#" class="vignette d-block w-100 position-relative m-0">
+        <div class="col-12 row  position-absolute">
+          <h2 class="col-12 p-0">Blondes et brunes</h2>
+          <p>
+            <i class="far fa-clock"></i>
+            <strong>45 mn</strong>
+            de parcours
+          </p>
+        </div>
       </a>
 
-      <a href="#">
-        <h2>Blondes et brunes</h2>
-        <p>
-          <i class="far fa-clock"></i>
-          <strong>45 mn</strong>
-          de parcours
-        </p>
-      </a>
-
-      <a href="#">
-        <h2>Ar(t)- chitecture</h2>
-        <p>
-          <i class="far fa-clock"></i>
-          <strong>30 mn</strong>
-          de parcours
-        </p>
+      <a href="#" class="vignette d-block w-100 position-relative m-0">
+        <div class="col-12 row  position-absolute">
+          <h2 class="col-12 p-0">Ar(t)- chitecture</h2>
+          <p>
+            <i class="far fa-clock"></i>
+            <strong>30 mn</strong>
+            de parcours
+          </p>
+        </div>
       </a>
 
     </section>
 
-    <section>
-      <h2>Les incontournables</h2>
+    <section class="pt-5">
 
-      <div class="">
+      <h2 class="text-center mb-5">Les incontournables</h2>
 
-        <a href="#">
+      <div class="incontournables">
 
-          <div class="">
+        <a href="#" class="vignette d-block w-100 position-relative m-0">
+
+          <div class="row position-absolute">
             <i class="far fa-clock"></i>
-            <h2>30m</h2>
-            <span>de parcours</span>
-            <span>12 oeuvres</span>
+            <div class="time  text-right position-absolute">
+
+              <h2 class="text-right">30mn</h2>
+              <span class="text-right d-block">de parcours</span>
+              <span class="text-right d-block">4 oeuvres</span>
+
+            </div>
           </div>
 
         </a>
 
-        <a href="#">
+        <a href="#" class="vignette d-block w-100 position-relative m-0">
 
-          <div class="">
+          <div class="row position-absolute ">
             <i class="far fa-clock"></i>
-            <h2>60m</h2>
-            <span>de parcours</span>
-            <span>12 oeuvres</span>
+            <div class="time  text-right position-absolute">
+              <h2>60mn</h2>
+              <span class="d-block">de parcours</span>
+              <span class="d-block">8 oeuvres</span>
+            </div>
           </div>
 
         </a>
 
-        <a href="#">
+        <a href="#" class="vignette d-block w-100 position-relative m-0">
 
-          <div class="">
+          <div class="row position-absolute">
             <i class="far fa-clock"></i>
-            <h2>90m</h2>
-            <span>de parcours</span>
-            <span>12 oeuvres</span>
+            <div class="time  text-right position-absolute">
+              <h2>90mn</h2>
+              <span class="d-block">de parcours</span>
+              <span class="d-block">12 oeuvres</span>
+            </div>
           </div>
 
         </a>
@@ -206,21 +264,30 @@
 
   </main>
   <footer>
-    <a href="#">
-      <img src="" alt="">
-      <p>Et laissez vous guider</p>
-      <p>Téléchargez l'appli mobile</p>
+    <a href="#" class="application d-block text-center">
+      <div class="">
+        <div class="overlay-image py-4">
+          <div class="">
+            <img class="mx-auto image pt-3" src="img/tablet-mobile.svg" alt="svg tablet and mobile">
+
+            <div class="hover py-4">
+
+             <img class="mx-auto image pt-3 " src="img/tablet-mobileHover.svg" alt="svg tablet and mobile au survol">
+
+           </div>
+          </div>
+
+          <div class="">
+            <p class="mt-4 mb-3 pb-2">Et laissez vous guider</p>
+            <p class="borderFooter p-3">Téléchargez l'appli mobile</p>
+          </div>
+
+        </div>
+      </div>
+
+
     </a>
 
-    <!--Footer desktop version-->
-    <div class="">
-
-
-    </div>
-    <!--Footer other screen version-->
-    <div class="">
-
-    </div>
   </footer>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
@@ -228,6 +295,8 @@
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/bootstrap.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
